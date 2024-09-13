@@ -16,6 +16,8 @@ const routes = [
     { path: "/history", name: "History", component: History },
     { path: "/login", name: "Login", component: Login },
     { path: "/daftar", name: "Daftar", component: Daftar },
+    { path: "/Everyday/login", name: "EverydayLogin", component: Login }, // Menambahkan rute ini
+
   ];
 
 const router = createRouter({
